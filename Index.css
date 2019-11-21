@@ -1,0 +1,60 @@
+body{
+  margin:0;
+  padding: 0;
+}
+
+.Center_Div{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width:100%;
+  
+}
+
+#Random_Dice{
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  text-align: center;
+  margin:0;
+  padding: 0;
+  
+}
+
+.Center_Div button{
+  position: relative;
+  display: block;
+  height: 150px;
+  width: 150px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  border:1px solid black;
+  background-color: white;
+  cursor: pointer;
+}
+.Center_Div button:hover{
+  background-color: grey;
+}
+.inputs{
+  position: relative;
+  display: flex;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+#input1 ,#input2{
+  width: 100%;
+  margin-top: 20px;
+}
+.spacer{
+  display: block;
+
+  width: 100px;
+  
+}
