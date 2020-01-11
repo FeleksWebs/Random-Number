@@ -6,7 +6,7 @@ body{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width:100%;
+  width:50%;
   
 }
 
@@ -50,7 +50,7 @@ h1{
 .LeftInput{
   position: relative;
   height: 200px;
-  width: 400px;
+  width: 50%;
   border: 2px solid rgb(54, 92, 209);
   border-radius: 15px;
   margin-top: 20px;
@@ -61,7 +61,7 @@ h1{
 .RightInput{
   position: relative;
   height: 200px;
-  width: 400px;
+  width: 50%;
   border: 2px solid rgb(54, 92, 209);
   border-radius: 15px;
   margin-top: 20px;
