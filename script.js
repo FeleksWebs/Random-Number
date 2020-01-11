@@ -28,12 +28,11 @@ function onClick(){
     var lowNr = document.getElementById('input1').value
     var highNr = document.getElementById('input2').value
     document.getElementById('button').disabled = true;
+
+    //number going up
     Timeout = setInterval(() => {
-      num++
-      if(num > 9){
-        num = 0
-      }
-      txtNr.innerHTML = num
+      var randomNr = getRandomInt(lowNr,highNr)
+      txtNr.innerHTML = randomNr
       }, 20);
       
   
