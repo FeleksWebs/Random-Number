@@ -37,10 +37,10 @@ body{
 .inputs{
   display: block;
   position: relative;
-  width: 600px;
+  width: auto;
   margin-left: auto;
   margin-right: auto;
-  
+
 }
 
 h1{
@@ -106,4 +106,28 @@ input::-webkit-inner-spin-button {
 #button:hover > #Random_Dice{
   color: white;
   transition: all 0.3s ease-in-out;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .LeftInput{
+    position: relative;
+    height: 190px;
+    width: 100%;
+    border: 2px solid rgb(54, 92, 209);
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .RightInput{
+    position: relative;
+    height: 230px;
+    width: 100%;
+    border: 2px solid rgb(54, 92, 209);
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
