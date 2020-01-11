@@ -2,29 +2,15 @@ body{
   margin:0;
   padding: 0;
 }
-
 .Center_Div{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
   width:100%;
   
 }
 
-#Random_Dice{
-  display: block;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  height: 50px;
-  text-align: center;
-  margin:0;
-  padding: 0;
-  
-}
-
-.Center_Div button{
+#button{
   position: relative;
   display: block;
   height: 150px;
@@ -37,24 +23,87 @@ body{
   background-color: white;
   cursor: pointer;
 }
-.Center_Div button:hover{
-  background-color: grey;
-}
-.inputs{
+#Random_Dice{
+  display: block;
   position: relative;
-  display: flex;
-
   margin-left: auto;
   margin-right: auto;
-  width: 300px;
+  color: rgb(54, 92, 209);
+  text-align: center;
+  margin:0;
+  padding: 0;
+  transition: all 0.5s ease-in-out;
 }
-#input1 ,#input2{
-  width: 100%;
-  margin-top: 20px;
-}
-.spacer{
+.inputs{
   display: block;
-
-  width: 100px;
+  position: relative;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
   
+}
+
+h1{
+  font-size: 40px;
+  text-align: center;
+}
+.LeftInput{
+  position: relative;
+  height: 200px;
+  width: 400px;
+  border: 2px solid rgb(54, 92, 209);
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.RightInput{
+  position: relative;
+  height: 200px;
+  width: 400px;
+  border: 2px solid rgb(54, 92, 209);
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#input1 ,#input2{
+  display: block;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 70px;
+  border-top:2px solid rgb(54, 92, 209);
+  border-bottom:2px solid rgb(54, 92, 209);
+  border-left: none;
+  border-right: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+#button{
+  height: 150px;
+  width: 90%;
+  border-color: rgb(54, 92, 209);
+  border-width: 2px;
+  transition: all 0.5s ease-in-out;
+}
+#button:hover{
+  background-color: rgb(54, 92, 209);
+  transition: all 0.3s ease-in-out;
+}
+#button:hover > #Random_Dice{
+  color: white;
+  transition: all 0.3s ease-in-out;
 }
